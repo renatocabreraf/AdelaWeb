@@ -1,8 +1,28 @@
 /*eslint-disable*/
 import React from "react";
 
-// reactstrap components
-import { Container } from "reactstrap";
+// reactstrap component
+
+import {
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardTitle,
+  Form,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
+  Container,
+  Row,
+  Col,
+  Dropdown,
+
+  PopoverBody,
+  PopoverHeader,
+  UncontrolledPopover,
+} from "reactstrap";
 // core components
 
 function IndexHeader() {
@@ -24,21 +44,22 @@ function IndexHeader() {
 
   return (
     <>
-      <div className="page-header clear-filter" >
-        <div
-          className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/BLOQUE1.jpg") + ")"
-          }}
-          ref={pageHeader}
-        ></div>
-        <Container>
-          <div className="content-center brand">
-           
-          </div>
-         
-        </Container>
+     <br/> <br/> <br/> <br/>
+      <div >
+<Container>
+  <Row>
+    <Col md="2">
+    <h2>
+      Hola Mundo
+    </h2>
+    </Col>
+
+  </Row>
+</Container>
+   
+        
       </div>
+
     </>
   );
 }
