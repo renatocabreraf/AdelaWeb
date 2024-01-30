@@ -2527,7 +2527,7 @@ textarea.form-control {
   color: #51bcda;
 }
 .nav-green > li.active a {
-  color: #6bd098;
+  color: #FFE1C9;
 }
 .nav-orange > li.active a {
   color: #fbc658;
@@ -2918,7 +2918,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #51bcda;
 }
 .ct-green {
-  color: #6bd098;
+  color: #FFE1C9;
 }
 .ct-orange {
   color: #fbc658;
@@ -3057,16 +3057,14 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .label-default {
   background-color: #66615b;
 }
+
+
 @font-face {
-  font-family: "nucleo-icons";
-  src: url("~assets/fonts/nucleo-icons.eot");
-  src: url("~assets/fonts/nucleo-icons.eot") format("embedded-opentype"),
-    url("~assets/fonts/nucleo-icons.woff2") format("woff2"),
-    url("~assets/fonts/nucleo-icons.woff") format("woff"),
-    url("~assets/fonts/nucleo-icons.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Apparat-Bold";
+  src: local('Apparat-Bold'), url("./fonts/Apparat-Bold.otf") format("otf");
+  
 }
+
 .nc-icon {
   display: inline-block;
   font: normal normal normal 14px/1 "nucleo-icons";
@@ -5409,7 +5407,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background: #6ec7e0;
 }
 .card[data-color="green"] {
-  background: #86d9ab;
+  background: #FFE1C9;
 }
 .card[data-color="yellow"] {
   background: #fcd27b;

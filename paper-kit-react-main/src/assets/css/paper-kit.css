@@ -2774,7 +2774,7 @@ textarea.form-control {
 }
 
 .nav-green > li.active a {
-  color: #6bd098;
+  color: #FFE1C9;
 }
 
 .nav-orange > li.active a {
@@ -3230,7 +3230,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .ct-green {
-  color: #6bd098;
+  color: #FFE1C9;
 }
 
 .ct-orange {
@@ -3402,15 +3402,12 @@ nucleo-icons Web Font - built using nucleoapp.com
 License - nucleoapp.com/license/
 
 -------------------------------- */
+
+
 @font-face {
-  font-family: "nucleo-icons";
-  src: url("~assets/fonts/nucleo-icons.eot");
-  src: url("~assets/fonts/nucleo-icons.eot") format("embedded-opentype"),
-    url("~assets/fonts/nucleo-icons.woff2") format("woff2"),
-    url("~assets/fonts/nucleo-icons.woff") format("woff"),
-    url("~assets/fonts/nucleo-icons.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Apparat-Bold";
+  src: local('Apparat-Bold'), url("./fonts/Apparat-Bold.otf") format("otf");
+  
 }
 
 /*------------------------
@@ -6038,7 +6035,7 @@ License - nucleoapp.com/license/
   background: #6ec7e0;
 }
 .card[data-color="green"] {
-  background: #86d9ab;
+  background: #FFE1C9;
 }
 .card[data-color="yellow"] {
   background: #fcd27b;

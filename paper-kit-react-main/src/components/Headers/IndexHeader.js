@@ -18,58 +18,120 @@
 */
 /*eslint-disable*/
 import React from "react";
+import imgHeader from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/HeaderPrincipal.jpg';
+import imgLogoAdela2 from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/logoAdelaLetras2.png';
 
 // reactstrap components
-import { Container } from "reactstrap";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardFooter,
+  CardTitle,
+  Form,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
+  Container,
+  Row,
+  Col
+} from "reactstrap";
 
 // core components
 
 function IndexHeader() {
   return (
     <>
-      <div
-        className="page-header section-dark"
-        style={{
-          backgroundImage:
-            "url(" + require("assets/img/antoine-barres.jpg") + ")",
-        }}
-      >
-        <div className="filter" />
+      <div>
+      <br/><br/><br/><br/><br/><br/><br/>
+        <div />
+        
+        <Row>
+          <Col md="6">
+
+  
+
+            <img src={require("assets/img/HeaderPrincipal.jpg")}
+            style={{
+              width:"103.5%"
+            }}>
+            </img>
+
+          </Col>
+          <Col md="6"
+          style={{
+            backgroundColor:"#BA8FAF"
+          }}>
+            <br/><br/>
+          <center><img src={imgLogoAdela2}
+          style={{
+            width:"25vh",
+            
+          }}></img></center>
+          <br/>
+          <Col>
+          <Col md="12">
+          <h3
+          style={{
+            color:"White",
+            fontFamily:"Fenwick Bold",
+            fontSize:"300%"
+          }}>
+            La receta de Adela
+          </h3>
+          <h4
+          style={{
+            color:"White",
+            fontFamily:"Fenwick",
+            fontSize:"250%"
+          }}>
+            El ingrediente más importante siempre es el amor. Y, en Adela, 
+            no es la excepción. Para crear los recuerdos más bonitos, recomendamos
+            la siguiente receta. Se puede seguir al pie de la letra, o improvisar 
+            al momento de servirla, pues lo más importante está en el corazón que 
+            se pone al prepararla. 
+            </h4>
+            <h4
+          style={{
+            color:"White",
+            fontFamily:"Fenwick",
+            fontSize:"250%"
+          }}>
+            Ingredientes: Dos cucharaditas de risas —se recomienda usar aquellas 
+            que hacen que duela un poquito la panza de tan fuertes que son.
+            </h4>
+            <h4
+          style={{
+            color:"White",
+            fontFamily:"Fenwick",
+            fontSize:"250%"
+          }}>
+            Un puñado de amigos o familia. Pueden ser ambos, pues se logra un 
+            efecto más aglutinante. Media onza de ganas de pasarla bien. En caso 
+            de no tener ni idea de cómo conseguir esto, puedes acercarte a 
+            cualquiera de nuestros amigos de Adela y te diremos el secreto para 
+            lograr la consistencia perfecta.
+ 
+          </h4>
+          </Col>
+          </Col>
+          </Col>
+        </Row>
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title">Paper Kit React</h1>
-              <div className="fog-low">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
+              
+              <div>
+             
               </div>
-              <div className="fog-low right">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
-              </div>
+              
             </div>
-            <h2 className="presentation-subtitle text-center">
-              Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
-            </h2>
+            
           </Container>
         </div>
-        <div
-          className="moving-clouds"
-          style={{
-            backgroundImage: "url(" + require("assets/img/clouds.png") + ")",
-          }}
-        />
-        <h6 className="category category-absolute">
-          Designed and coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=pkr-index-page"
-            target="_blank"
-          >
-            <img
-              alt="..."
-              className="creative-tim-logo"
-              src={require("assets/img/creative-tim-white-slim2.png")}
-            />
-          </a>
-        </h6>
+    
+       
       </div>
     </>
   );

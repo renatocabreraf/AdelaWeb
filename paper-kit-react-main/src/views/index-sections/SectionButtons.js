@@ -62,11 +62,61 @@ function SectionButtons() {
   });
   return (
     <>
+      <img src={require("assets/img/divisorIndex.png")}
+        style={{
+          width: "100.65%"
+        }}>
+      </img>
+      <Container>
+        <div className="title">
+          <h4
+            style={{
+              color: "#6b184d",
+              fontFamily: "Fenwick",
+
+            }}>
+            Helados completamente desde cero, utilizando una receta única y
+            perfeccionada durante más de 10 años. Nuestros helados tienen una
+            textura excepcionalmente suave, con un sabor vibrante y cremoso.
+            Encontrarás sabores inspirados en nuestras curiosidades!!
+          </h4>
+        </div>
+      </Container>
+      
+      <Container>
+      
+   
+     <div
+     style={{
+      display:"flex",
+      justifyContent:"center"
+     }}>
+        <Button
+          className="btn-round mr-1"
+          type="button"
+          color="success"
+          width="33.33%"
+    
+        >
+          <p
+          style={{
+            fontFamily:"Apparat-Bold",
+            fontSize:"22px",
+            color:"#6b184d"
+            
+          }}
+          >Conoce Nuestros Sabores
+          </p>
+        </Button>
+        </div>
+
+  
+      </Container>
+  
       <div className="section section-buttons">
+
         <Container>
-          <div className="title">
-            <h2>Basic Elements</h2>
-          </div>
+
           <div id="buttons">
             <div className="title">
               <h3>

@@ -516,7 +516,7 @@
 }
 
 .navbar-transparent.navbar-small .logo-container .brand {
-  color: #ffffff;
+  color: #DC9E97;
 }
 
 .navbar-default.navbar-small .logo-container .brand {
@@ -617,7 +617,7 @@
 }
 
 .navbar-transparent .switch-background {
-  display: none;
+  color: #DC9E97;
 }
 
 .section-signup .col .btn {
