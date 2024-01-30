@@ -48,7 +48,7 @@ function IndexHeader() {
         <div />
         
         <Row>
-          <Col md="6">
+          <Col md="8">
 
   
 
@@ -59,14 +59,14 @@ function IndexHeader() {
             </img>
 
           </Col>
-          <Col md="6"
+          <Col md="4"
           style={{
             backgroundColor:"#BA8FAF"
           }}>
             <br/><br/>
           <center><img src={imgLogoAdela2}
           style={{
-            width:"25vh",
+            width:"50vh",
             
           }}></img></center>
           <br/>
@@ -84,7 +84,7 @@ function IndexHeader() {
           style={{
             color:"White",
             fontFamily:"Fenwick",
-            fontSize:"250%"
+            fontSize:"175%"
           }}>
             El ingrediente más importante siempre es el amor. Y, en Adela, 
             no es la excepción. Para crear los recuerdos más bonitos, recomendamos
@@ -96,7 +96,7 @@ function IndexHeader() {
           style={{
             color:"White",
             fontFamily:"Fenwick",
-            fontSize:"250%"
+            fontSize:"175%"
           }}>
             Ingredientes: Dos cucharaditas de risas —se recomienda usar aquellas 
             que hacen que duela un poquito la panza de tan fuertes que son.
@@ -105,7 +105,7 @@ function IndexHeader() {
           style={{
             color:"White",
             fontFamily:"Fenwick",
-            fontSize:"250%"
+            fontSize:"175%"
           }}>
             Un puñado de amigos o familia. Pueden ser ambos, pues se logra un 
             efecto más aglutinante. Media onza de ganas de pasarla bien. En caso 
