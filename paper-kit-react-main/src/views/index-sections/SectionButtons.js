@@ -45,11 +45,17 @@ function SectionButtons() {
         }}>
       </img>
       <Container>
-        <div className="title">
+        <div className="title"
+        style={{
+          justifyContent:"Center",
+          display:"flex",
+          textAlign:"justify"
+        }}>
           <h4
             style={{
               color: "#6b184d",
               fontFamily: "Fenwick",
+             
 
             }}>
             Helados completamente desde cero, utilizando una receta única y

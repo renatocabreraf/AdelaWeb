@@ -38,17 +38,38 @@ import {
 function SectionNavbars() {
   return (
     <>
+    <br/>
       <div >
        
           
-         <img src={require("assets/img/BLOQUE3.jpg")}
+         <img src={require("assets/img/BLOQUE4.jpg")}
         style={{
           width: "100.65%"
         }}>
          </img>
           
+          
        
       </div>
+      <Container>
+      <div 
+      style={{
+        display:"flex",
+      justifyContent:"Center"
+      }}>
+          <h1
+            style={{
+              color: "#6b184d",
+              fontFamily: "Finland",
+         
+              fontSize:"400%"
+
+            }}>
+            ADELA, UNA EXPERIENCIA INOLVIDABLE PARA COMPARTIR CON TODOS
+          </h1>
+        </div>
+
+</Container>
     </>
   );
 }

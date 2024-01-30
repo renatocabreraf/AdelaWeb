@@ -84,7 +84,8 @@ function IndexHeader() {
           style={{
             color:"White",
             fontFamily:"Fenwick",
-            fontSize:"175%"
+            fontSize:"175%",
+            textAlign:"justify"
           }}>
             El ingrediente más importante siempre es el amor. Y, en Adela, 
             no es la excepción. Para crear los recuerdos más bonitos, recomendamos
@@ -96,7 +97,8 @@ function IndexHeader() {
           style={{
             color:"White",
             fontFamily:"Fenwick",
-            fontSize:"175%"
+            fontSize:"175%",
+            textAlign:"justify"
           }}>
             Ingredientes: Dos cucharaditas de risas —se recomienda usar aquellas 
             que hacen que duela un poquito la panza de tan fuertes que son.
@@ -105,7 +107,8 @@ function IndexHeader() {
           style={{
             color:"White",
             fontFamily:"Fenwick",
-            fontSize:"175%"
+            fontSize:"175%",
+            textAlign:"justify"
           }}>
             Un puñado de amigos o familia. Pueden ser ambos, pues se logra un 
             efecto más aglutinante. Media onza de ganas de pasarla bien. En caso 
