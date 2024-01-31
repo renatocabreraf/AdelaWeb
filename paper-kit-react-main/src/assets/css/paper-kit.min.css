@@ -2521,10 +2521,10 @@ textarea.form-control {
   margin-bottom: 20px;
 }
 .nav-blue > li.active a {
-  color: #51cbce;
+  color: #EE83A1;
 }
 .nav-azure > li.active a {
-  color: #51bcda;
+  color: #EE83A1;
 }
 .nav-green > li.active a {
   color: #FFE1C9;
@@ -2912,10 +2912,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 .ct-blue {
-  color: #51cbce;
+  color: #EE83A1;
 }
 .ct-azure {
-  color: #51bcda;
+  color: #EE83A1;
 }
 .ct-green {
   color: #FFE1C9;
@@ -5404,7 +5404,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   filter: alpha(opacity=75);
 }
 .card[data-color="blue"] {
-  background: #6ec7e0;
+  background: #EE83A1;
 }
 .card[data-color="green"] {
   background: #FFE1C9;

@@ -58,15 +58,7 @@ function Index() {
         <SectionNavigation />
         <SectionProgress />
         <SectionNotifications />
-        <SectionTypography />
-        <SectionJavaScript />
-        <SectionCarousel />
-        <SectionNucleoIcons />
-        <SectionDark />
-        <SectionLogin />
-        <SectionExamples />
-        <SectionDownload />
-        <DemoFooter />
+       
       </div>
     </>
   );

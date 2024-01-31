@@ -60,8 +60,8 @@ function SectionNavbars() {
           <h1
             style={{
               color: "#6b184d",
-              fontFamily: "Finland",
-         
+              fontFamily: "Finland bOLD",
+              lineHeight:"normal",
               fontSize:"400%"
 
             }}>

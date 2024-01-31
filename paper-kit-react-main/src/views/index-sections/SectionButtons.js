@@ -41,7 +41,7 @@ function SectionButtons() {
     <>
       <img src={require("assets/img/divisorIndex.png")}
         style={{
-          width: "100.65%"
+          width: "103%"
         }}>
       </img>
       <Container>

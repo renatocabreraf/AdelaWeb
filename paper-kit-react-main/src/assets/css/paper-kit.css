@@ -2766,11 +2766,11 @@ textarea.form-control {
 }
 
 .nav-blue > li.active a {
-  color: #51cbce;
+  color: #EE83A1;
 }
 
 .nav-azure > li.active a {
-  color: #51bcda;
+  color: #EE83A1;
 }
 
 .nav-green > li.active a {
@@ -3222,11 +3222,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 /*       CT colors          */
 .ct-blue {
-  color: #51cbce;
+  color: #EE83A1;
 }
 
 .ct-azure {
-  color: #51bcda;
+  color: #EE83A1;
 }
 
 .ct-green {
@@ -6032,7 +6032,7 @@ License - nucleoapp.com/license/
   filter: alpha(opacity=75);
 }
 .card[data-color="blue"] {
-  background: #6ec7e0;
+  background: #EE83A1;
 }
 .card[data-color="green"] {
   background: #FFE1C9;

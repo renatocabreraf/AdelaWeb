@@ -19,89 +19,172 @@
 import React from "react";
 
 // reactstrap components
-import { Alert, Container } from "reactstrap";
+import {
+  NavItem,
+  NavLink,
+  Nav,
+  Pagination,
+  PaginationItem,
+  PaginationLink,
+  Progress,
+  TabContent,
+  TabPane,
+  Container,
+  Row,
+  Col,
+  Button,
+  FormGroup,
+  Label,
+  Input,
+  FormText,
+} from "reactstrap";
 
 // core components
 
-function SectionNotifications() {
-  const [alertSuccess, setAlertSuccess] = React.useState(true);
-  const [alertWarning, setAlertWarning] = React.useState(true);
-  const [alertDanger, setAlertDanger] = React.useState(true);
+
+const Forms = () => {
   return (
     <>
-      <Container className="tim-container">
-        <div className="title">
-          <h3>Notifications</h3>
-        </div>
-      </Container>
-      <div id="notifications">
-        <Alert color="info">
-          <Container>
-            <span>This is a plain notification!</span>
-          </Container>
-        </Alert>
-        <Alert color="success" isOpen={alertSuccess}>
-          <Container>
-            <button
-              type="button"
-              className="close"
-              data-dismiss="alert"
-              aria-label="Close"
-              onClick={() => setAlertSuccess(false)}
-            >
-              <i className="nc-icon nc-simple-remove" />
-            </button>
-            <span>This is a notification with close button.</span>
-          </Container>
-        </Alert>
-        <Alert
-          className="alert-with-icon"
-          color="warning"
-          isOpen={alertWarning}
-        >
-          <Container>
-            <div className="alert-wrapper">
-              <button
-                type="button"
-                className="close"
-                data-dismiss="alert"
-                aria-label="Close"
-                onClick={() => setAlertWarning(false)}
+    <br/><br/>   
+      <Row>
+
+          <Col md="5">
+            <div>
+              <p
+                style={{
+                  color: "#6b184d",
+                  fontFamily: "Finland Bold",
+                  fontSize: "350%",
+                  lineHeight: "normal"
+                }}
               >
-                <i className="nc-icon nc-simple-remove" />
-              </button>
-              <div className="message">
-                <i className="nc-icon nc-bell-55" /> This is a notification with
-                close button and icon.
-              </div>
+                QUIERO QUE ME CONTACTEN PARA REALIZAR UN EVENTO CON USTEDES
+              </p>
             </div>
-          </Container>
-        </Alert>
-        <Alert className="alert-with-icon" color="danger" isOpen={alertDanger}>
-          <Container>
-            <div className="alert-wrapper">
-              <button
+            <br /> <br /> <br/>    <br/>
+            <form>
+              <FormGroup>
+                <Label for="exampleName"
+                  style={{
+                    color: "#6b184d",
+                    fontFamily: "Fenwick",
+                    fontSize: "175%",
+                    textAlign: "justify"
+                  }}>Nombre Completo</Label>
+                 
+                <Input
+                  type="name"
+                  name="email"
+                  id="exampleEmail"
+                  placeholder="Ingresa tu nombre aquí"
+                />
+
+              </FormGroup>
+              <FormGroup>
+                <Label for="exampleEmail"
+                  style={{
+                    color: "#6b184d",
+                    fontFamily: "Fenwick",
+                    fontSize: "175%",
+                    textAlign: "justify"
+                  }}>Correo Electrónico</Label>
+                <Input
+                  type="email"
+                  name="email"
+                  id="exampleEmail"
+                  placeholder="Ingresa tu Email aquí"
+                />
+
+              </FormGroup>
+              <FormGroup>
+                <Label for="examplePhone"
+                  style={{
+                    color: "#6b184d",
+                    fontFamily: "Fenwick",
+                    fontSize: "175%",
+                    textAlign: "justify"
+                  }}>Teléfono</Label>
+                <Input
+                  type="phone"
+                  name="phone"
+                  id="examplePhone"
+                  placeholder="Ingresa tu número aquí"
+
+                />
+              </FormGroup>
+              <br /> <br />
+              <Button
+                className="btn-round mr-1"
                 type="button"
-                className="close"
-                data-dismiss="alert"
-                aria-label="Close"
-                onClick={() => setAlertDanger(false)}
+                color="info"
+                width="33.33%"
               >
-                <i className="nc-icon nc-simple-remove" />
-              </button>
-              <div className="message">
-                <i className="nc-icon nc-bell-55" /> This is a notification with
-                close button and icon and have many lines. You can see that the
-                icon and the close button are always vertically aligned. This is
-                a beautiful notification. So you don't have to worry about the
-                style.
-              </div>
+                <p
+                  style={{
+                    fontFamily: "Fenwick Bold",
+                    fontSize: "20px",
+                    color: "white",
+                  }}
+                >Enviar</p>
+              </Button>
+            </form>
+            <br />
+
+
+          </Col>
+          
+     
+        <Col md="6">
+        <div>
+              <p
+                style={{
+                  color: "#6b184d",
+                  fontFamily: "Finland Bold",
+                  fontSize: "350%",
+                  lineHeight: "normal"
+                }}
+              >
+                COMUNIDAD ADELA
+              </p>
             </div>
-          </Container>
-        </Alert>
-      </div>
+            <div>
+              <p
+                style={{
+                  color: "#EE83A1",
+                  fontFamily: "Fenwick Bold",
+                  fontSize: "175%",
+                  lineHeight: "normal"
+                }}
+              >
+                @heladosadela
+              </p>
+            </div>
+          <img src={require("assets/img/footer.png")}
+            style={{
+              width: "100.65%"
+            }}>
+          </img>
+          <br/><br/>
+          <div
+          style={{
+            textAlign:"Center"
+          }}><a href="https://www.instagram.com/heladosadela/"><img src={require("assets/img/instagram.png")}
+            style={{
+              width: "5%"
+            }}>
+          </img></a>
+          <a href="https://www.facebook.com/heladosadela"><img src={require("assets/img/facebook.png")}
+            style={{
+              width: "5%"
+            }}>
+          </img></a>
+          </div>
+          <br/><br/>
+        </Col>
+  
+      </Row>
     </>
   );
-}
+};
 
-export default SectionNotifications;
+export default Forms;
