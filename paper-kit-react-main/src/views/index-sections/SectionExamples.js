@@ -26,48 +26,60 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionExamples() {
   return (
     <>
-      <div className="section section-dark">
+      <div>
         <Container>
-          <Row className="example-page">
-            <Col className="text-center" md="6">
-              <a href="examples/landing.html" target="_blank">
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/examples/landing-page.png")}
-                  style={{ width: "100%" }}
-                />
-              </a>
-              <Button
-                className="btn-outline-neutral btn-round"
-                color="default"
-                href="/landing-page"
-                target="_blank"
-              >
-                Landing Page
-              </Button>
-            </Col>
-            <Col className="text-center" md="6">
-              <a href="examples/profile.html" target="_blank">
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/examples/profile-page.png")}
-                  style={{ width: "100%" }}
-                />
-              </a>
-              <Button
-                className="btn-outline-neutral btn-round"
-                color="default"
-                href="/profile-page"
-                target="_blank"
-              >
-                Profile Page
-              </Button>
+        <Row>
+          <Col md="12">
+          <Col md="12">
+          <div
+                >
+
+                  <h4
+                    style={{
+                      color: "#6B184B",
+                      fontFamily: "Fenwick Bold",
+                      fontSize: "200%",
+                      textAlign: "Center",
+                      fontStyle: "normal"
+                    }}>
+                    Cada ubicación cuidadosamente diseñada para 
+                    brindar a nuestros clientes un espacio donde 
+                    puedan sumergirse en la delicia de sabores 
+                    exquisitos mientras disfrutan de momentos 
+                    especiales. 
+                    <br/> <br/>
+                    Descubre nuestras diversas 
+                    ubicaciones, donde la fusión de los mejores 
+                    helados y la creación de experiencias se 
+                    convierten en el ingrediente secreto.
+                  </h4>
+                </div>
+                <br />
+                
+                <br />
+          </Col>
+          </Col>
+        </Row>
+        </Container>
+      </div>
+      <div>
+        
+          <Row
+           style={{
+            background: "#FFE7D1"
+          }}>
+<Col md="12">
+              <h2
+                style={{
+                  color: "White",
+                  fontFamily: "Finland Bold",
+                  fontSize: "500%",
+                  textAlign: "right"
+                }}></h2>
             </Col>
           </Row>
-        </Container>
-      </div>{" "}
+     
+      </div>
     </>
   );
 }

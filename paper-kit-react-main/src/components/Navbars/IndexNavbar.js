@@ -84,7 +84,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/"
+                href="/index"
                 target="_blank"
                 title="Todo sobre Helados Adela"
                 
@@ -101,7 +101,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/"
+                href="/tiendas"
                 target="_blank"
                 title="¡Ubica tu tienda más cercana!"
               >
@@ -162,21 +162,7 @@ function IndexNavbar() {
               </NavLink>
             </NavItem>
            
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="/"
-                target="_blank"
-                title="Buscar"
-              >
-
-                <p
-                ><img src={persona}
-                style={{
-                  width:"35px"
-                }}></img></p>
-              </NavLink>
-            </NavItem>
+           
 
           </Nav>
         </Collapse>
