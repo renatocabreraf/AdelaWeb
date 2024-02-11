@@ -37,7 +37,7 @@ function SectionCarousel() {
 
   return (
     <>
-    <br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/>
       <img src={require("assets/img/IMAGENFONDO2.jpg")}
         style={{
           width: "103%"

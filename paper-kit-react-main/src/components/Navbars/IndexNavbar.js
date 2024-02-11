@@ -14,9 +14,7 @@ import {
   Container,
 } from "reactstrap";
 
-import logo from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/LogoAdela.png';
-import lupa from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/Lupa.png';
-import persona from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/Persona.png';
+
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -58,7 +56,7 @@ function IndexNavbar() {
             target="_blank"
             title="¡Bienvenido a Helados Adela!"
           >
-            <img src={logo}
+            <img src={require("assets/img/LogoAdela.png")}
             style={{
               width:"75px"
             }}></img>
@@ -155,7 +153,7 @@ function IndexNavbar() {
                 title="Buscar"
               >
 
-                <p><img src={lupa}
+                <p><img src={require("assets/img/Lupa.png")}
                 style={{
                   width:"35px"
                 }}></img></p>

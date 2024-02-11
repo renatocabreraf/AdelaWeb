@@ -26,7 +26,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionNucleoIcons() {
   return (
     <>
-      <br />    <br />    <br /><br /><br /><br />
+      <br />    <br />    <br /><br />
       <div class="fondo"
 
 

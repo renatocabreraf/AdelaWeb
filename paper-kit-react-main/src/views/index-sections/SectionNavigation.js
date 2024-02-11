@@ -17,8 +17,6 @@
 
 */
 import React from "react";
-import imgHeader from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/HeaderPrincipal.jpg';
-import imgLogoAdela2 from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/logoAdelaLetras2.png';
 
 
 // reactstrap components

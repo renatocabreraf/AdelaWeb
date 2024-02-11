@@ -17,7 +17,6 @@
 
 */
 import React from "react";
-import backgroundImage from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/BLOQUE5.jpg';
 
 // reactstrap components
 import {
@@ -89,7 +88,7 @@ function SectionProgress() {
           <p
           style={{
             fontFamily:"Fenwick Bold",
-            fontSize:"20px",
+            fontSize:"11px",
             color:"white",
 
             
@@ -118,7 +117,7 @@ function SectionProgress() {
           <p
           style={{
             fontFamily:"Fenwick Bold",
-            fontSize:"20px",
+            fontSize:"11px",
             color:"white"
             
           }}

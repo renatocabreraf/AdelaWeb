@@ -18,8 +18,7 @@
 */
 /*eslint-disable*/
 import React from "react";
-import imgHeader from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/HeaderPrincipal.jpg';
-import imgLogoAdela2 from '/Users/renatocabrerafigueroa/Documents/GitHub/AdelaWeb/paper-kit-react-main/src/assets/img/logoAdelaLetras2.png';
+
 
 // reactstrap components
 import {
@@ -44,7 +43,7 @@ function IndexHeader() {
   return (
     <>
       <div>
-      <br/><br/><br/><br/><br/><br/><br/>
+      <br/><br/><br/><br/><br/>
         <div />
         
         <Row>
@@ -64,7 +63,7 @@ function IndexHeader() {
             backgroundColor:"#BA8FAF"
           }}>
             <br/><br/>
-          <center><img src={imgLogoAdela2}
+          <center><img src={require("assets/img/logoAdelaLetras2.png")}
           style={{
             width:"50vh",
             
@@ -76,7 +75,7 @@ function IndexHeader() {
           style={{
             color:"White",
             fontFamily:"Fenwick Bold",
-            fontSize:"300%"
+            fontSize:"200%"
           }}>
             La receta de Adela
           </h3>
@@ -84,39 +83,23 @@ function IndexHeader() {
           style={{
             color:"White",
             fontFamily:"Fenwick",
-            fontSize:"175%",
+            fontSize:"150%",
             textAlign:"justify"
           }}>
             El ingrediente más importante siempre es el amor. Y, en Adela, 
             no es la excepción. Para crear los recuerdos más bonitos, recomendamos
             la siguiente receta. Se puede seguir al pie de la letra, o improvisar 
             al momento de servirla, pues lo más importante está en el corazón que 
-            se pone al prepararla. 
-            </h4>
-            <h4
-          style={{
-            color:"White",
-            fontFamily:"Fenwick",
-            fontSize:"175%",
-            textAlign:"justify"
-          }}>
+            se pone al prepararla. <br/><br/>
             Ingredientes: Dos cucharaditas de risas —se recomienda usar aquellas 
-            que hacen que duela un poquito la panza de tan fuertes que son.
-            </h4>
-            <h4
-          style={{
-            color:"White",
-            fontFamily:"Fenwick",
-            fontSize:"175%",
-            textAlign:"justify"
-          }}>
+            que hacen que duela un poquito la panza de tan fuertes que son.<br/><br/>
             Un puñado de amigos o familia. Pueden ser ambos, pues se logra un 
             efecto más aglutinante. Media onza de ganas de pasarla bien. En caso 
             de no tener ni idea de cómo conseguir esto, puedes acercarte a 
             cualquiera de nuestros amigos de Adela y te diremos el secreto para 
             lograr la consistencia perfecta.
- 
-          </h4>
+            </h4>
+
           </Col>
           </Col>
           </Col>
