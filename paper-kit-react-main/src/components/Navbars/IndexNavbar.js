@@ -133,7 +133,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/"
+                href="/contactenos"
                 target="_blank"
                 title="Contacta con Helados Adela"
               >

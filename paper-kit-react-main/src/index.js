@@ -32,6 +32,7 @@ import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import Tiendas from "views/Tiendas.js";
 import Servicios from "views/Servicios";
+import Contactenos from "views/Contactenos";
 // others
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -46,6 +47,7 @@ root.render(
       <Route path="/register-page" element={<RegisterPage />} />
       <Route path="/tiendas" element={<Tiendas />} />
       <Route path="/servicios" element={<Servicios />}/>
+      <Route path="/contactenos" element={<Contactenos />} />
       <Route path="*" element={<Navigate to="/index" replace />} />
     </Routes>
   </BrowserRouter>
