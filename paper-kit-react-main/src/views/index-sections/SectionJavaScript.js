@@ -46,255 +46,225 @@ function SectionJavaScript() {
   };
   return (
     <>
-      <div className="section javascript-components">
-        <Container>
-          <div className="title">
-            <h2>Javascript Components</h2>
-          </div>
-          <Row id="modals">
-            <Col md="6">
-              <div className="title">
-                <h3>Modal</h3>
-              </div>
-              {/* Button trigger modal */}
-              <Button
-                className="btn-round"
-                color="danger"
-                outline
-                type="button"
-                onClick={toggleModal}
-              >
-                Launch demo modal
-              </Button>
-              {/* Modal */}
-              <Modal isOpen={modal} toggle={toggleModal}>
-                <div className="modal-header">
-                  <button
-                    aria-label="Close"
-                    className="close"
-                    type="button"
-                    onClick={toggleModal}
-                  >
-                    <span aria-hidden={true}>×</span>
-                  </button>
-                  <h5
-                    className="modal-title text-center"
-                    id="exampleModalLabel"
-                  >
-                    Modal title
-                  </h5>
-                </div>
-                <div className="modal-body">
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics, a large language ocean. A small river named
-                  Duden flows by their place and supplies it with the necessary
-                  regelialia. It is a paradisematic country, in which roasted
-                  parts of sentences fly into your mouth. Even the all-powerful
-                  Pointing has no control about the blind texts it is an almost
-                  unorthographic life One day however a small line of blind text
-                  by the name of Lorem Ipsum decided to leave for the far World
-                  of Grammar.
-                </div>
-                <div className="modal-footer">
-                  <div className="left-side">
-                    <Button
-                      className="btn-link"
-                      color="default"
-                      type="button"
-                      onClick={toggleModal}
-                    >
-                      Never mind
-                    </Button>
-                  </div>
-                  <div className="divider" />
-                  <div className="right-side">
-                    <Button className="btn-link" color="danger" type="button">
-                      Delete
-                    </Button>
-                  </div>
-                </div>
-              </Modal>
+      <br />    <br />    <br /><br /><br /><br />
+      <div
+
+        style={{
+          background: "#BA8FAF"
+        }}
+      >
+        <br />
+        <Container
+        >
+          <Row
+            style={{
+              background: "#BA8FAF"
+            }}>
+            <Col md="12">
+              <h2
+                style={{
+                  color: "White",
+                  fontFamily: "Finland Bold",
+                  fontSize: "500%",
+                  textAlign: "Center"
+                }}>VÁLIDO YA EN CIUDAD DE GUATEMALA</h2>
             </Col>
-            <Col md="6">
-              <div className="title">
-                <h3>Popovers</h3>
-              </div>
-              <Button
-                className="btn-round mr-1"
-                color="danger"
-                id="tooltip344834141"
-                outline
-                onClick={(e) => e.target.focus()}
-              >
-                On top
-              </Button>
-              <UncontrolledPopover
-                placement="top"
-                target="tooltip344834141"
-                trigger="focus"
-              >
-                <PopoverHeader>Popover on top</PopoverHeader>
-                <PopoverBody>
-                  Here will be some very useful information about this popover.
-                </PopoverBody>
-              </UncontrolledPopover>
-              <Button
-                className="btn-round mr-1"
-                color="danger"
-                id="tooltip493417725"
-                outline
-                onClick={(e) => e.target.focus()}
-              >
-                On bottom
-              </Button>
-              <UncontrolledPopover
-                placement="bottom"
-                target="tooltip493417725"
-                trigger="focus"
-              >
-                <PopoverHeader>Popover on bottom</PopoverHeader>
-                <PopoverBody>
-                  Here will be some very useful information about this popover.
-                </PopoverBody>
-              </UncontrolledPopover>
-              <Button
-                className="btn-round mr-1"
-                color="danger"
-                id="tooltip746845223"
-                outline
-                onClick={(e) => e.target.focus()}
-              >
-                On left
-              </Button>
-              <UncontrolledPopover
-                placement={window.innerWidth < 768 ? "top" : "left"}
-                target="tooltip746845223"
-                trigger="focus"
-              >
-                <PopoverHeader>Popover on left</PopoverHeader>
-                <PopoverBody>
-                  Here will be some very useful information about this popover.
-                </PopoverBody>
-              </UncontrolledPopover>
-              <Button
-                className="btn-round"
-                color="danger"
-                id="tooltip909471006"
-                outline
-                onClick={(e) => e.target.focus()}
-              >
-                On right
-              </Button>
-              <UncontrolledPopover
-                placement={window.innerWidth < 768 ? "top" : "right"}
-                target="tooltip909471006"
-                trigger="focus"
-              >
-                <PopoverHeader>Popover on right</PopoverHeader>
-                <PopoverBody>
-                  Here will be some very useful information about this popover.
-                </PopoverBody>
-              </UncontrolledPopover>
-            </Col>
-            <br />
-            <Col md="6">
-              <div className="title">
-                <h3>Datepicker</h3>
-              </div>
-              <Row>
-                <Col sm="6">
-                  <FormGroup>
-                    <InputGroup className="date" id="datetimepicker">
-                      <ReactDatetime
-                        inputProps={{
-                          placeholder: "Datetime Picker Here",
-                        }}
-                      />
-                      <InputGroupAddon addonType="append">
-                        <InputGroupText>
-                          <span className="glyphicon glyphicon-calendar">
-                            <i aria-hidden={true} className="fa fa-calendar" />
-                          </span>
-                        </InputGroupText>
-                      </InputGroupAddon>
-                    </InputGroup>
-                  </FormGroup>
-                </Col>
-              </Row>
-            </Col>
-            <Col md="6">
-              <div className="title">
-                <h3>Tooltips</h3>
-              </div>
-              <Button
-                className="btn-round mr-1"
-                color="danger"
-                id="tooltip392938669"
-                outline
-              >
-                On left
-              </Button>
-              <UncontrolledTooltip
-                delay={0}
-                placement="left"
-                target="tooltip392938669"
-              >
-                On left
-              </UncontrolledTooltip>
-              <Button
-                className="btn-round mr-1"
-                color="danger"
-                id="tooltip354225297"
-                outline
-              >
-                On right
-              </Button>
-              <UncontrolledTooltip
-                delay={0}
-                placement="right"
-                target="tooltip354225297"
-              >
-                On right
-              </UncontrolledTooltip>
-              <Button
-                className="btn-round mr-1"
-                color="danger"
-                id="tooltip739061283"
-                outline
-              >
-                On top
-              </Button>
-              <UncontrolledTooltip
-                delay={0}
-                placement="top"
-                target="tooltip739061283"
-              >
-                On top
-              </UncontrolledTooltip>
-              <Button
-                className="btn-round"
-                color="danger"
-                id="tooltip984013562"
-                outline
-              >
-                On bottom
-              </Button>
-              <UncontrolledTooltip
-                delay={0}
-                placement="bottom"
-                target="tooltip984013562"
-              >
-                On bottom
-              </UncontrolledTooltip>
-            </Col>
+
+
+
           </Row>
-          <div className="title">
-            <h3>Carousel</h3>
-          </div>
+
         </Container>
-      </div>{" "}
+        <br />
+        <div
+          style={{
+            background: "#EE83A1"
+          }}
+        >
+
+          <Container
+
+          >
+            <Row
+              style={{
+                background: "#EE83A1"
+              }}>
+              <Col md="6">
+                <img src={require("assets/img/FOTO3.jpg")}
+                  style={{
+                    width: "100%"
+                  }}>
+                </img>
+                <h2
+                  style={{
+                    color: "White",
+                    fontFamily: "Fenwick",
+                    fontSize: "140%",
+                    textAlign: "justify"
+                  }}>En nuestra mágica fábrica de helados,
+                  los niños viven una experiencia inolvidable.
+                  Desde aprender a hacer su propio helado hasta
+                  la adición de irresistibles toppings, cada
+                  estación ofrece una aventura para despertar
+                  la creatividad y los sentidos. Las risas
+                  llenan el aire mientras los pequeños crean
+                  sus propios helados.<br/><br/>
+                  ¡Bienvenidos a un lugar donde la diversión 
+                  y la delicia se mezclan, creando recuerdos 
+                  sabrosos que perdurarán en sus corazones!<br /><br /> <br /><br /> <br /> <br /> 
+                  HORARIOS DISPONIBLES:
+                  JUEVES Y VIERNES (2:00PM - 5:00PM)
+                  </h2>
+                  
+                  <br /><br /> 
+                  
+              </Col>
+              <Col md="6">
+              <img src={require("assets/img/FOTO1.png")}
+                  style={{
+                    width: "100.35%"
+                  }}>
+                </img>
+                <div
+                >
+
+                  <h2
+                    style={{
+                      color: "White",
+                    fontFamily: "Fenwick",
+                    fontSize: "140%",
+                    textAlign: "justify"
+                    }}>
+                    En Helados Adela, llevamos la magia directamente 
+                    a tus eventos con nuestra encantadora carreta o 
+                    camioncito.<br/><br/>
+                    Nos enorgullece ofrecerte una experiencia única, 
+                    donde la deliciosa frescura de nuestros helados 
+                    se une a la celebración de tu ocasión especial.<br/><br/>
+                    Estamos comprometidos a atenderte de la mejor manera 
+                    posible, creando un ambiente vibrante y lleno de sabor. 
+                    Ya sea una fiesta, boda, cumpleaños o cualquier evento 
+                    especial, en Helados Adela estamos listos para endulzar 
+                    cada momento y hacer que tu celebración sea aún más 
+                    memorable con nuestros helados deliciosos.<br/><br/>
+                    ¡Hacemos que tus eventos sean dulces y llenos de alegría!
+                  </h2>
+                  
+                </div>
+                <br /><br />
+                
+   
+
+
+              </Col>
+
+
+            </Row>
+
+          </Container>
+
+        </div>
+
+        <div
+          style={{
+            background: "#6B184B"
+          }}
+        >
+
+          <Container
+
+          >
+            <Row
+              style={{
+                background: "#6B184B"
+              }}>
+                
+              <Col md="6">
+              <br/><br/><br/>
+                <img src={require("assets/img/FOTO2.jpg")}
+                  style={{
+                    width: "100%"
+                  }}>
+                </img>
+               
+                  
+              </Col>
+              <Col md="6">
+              <br/><br/><br/>
+              
+                <div
+                >
+     
+                  <h2
+                    style={{
+                      color: "White",
+                    fontFamily: "Fenwick",
+                    fontSize: "160%",
+                    textAlign: "justify"
+                    }}>
+                    En Helados Adela, te invitamos a celebrar tus eventos 
+                    en nuestras acogedoras instalaciones, donde la dulzura 
+                    se combina con la diversión.<br/><br/>
+                    Nuestro espacio está diseñado para ofrecerte un 
+                    ambiente encantador y festivo, perfecto para cualquier 
+                    ocasión especial. Imagina un lugar lleno de colores 
+                    y aromas tentadores, donde tanto niños como adultos 
+                    pueden sumergirse en la experiencia única de crear sus 
+                    propios helados personalizados. Con un servicio dedicado 
+                    y atento, nos aseguramos de que cada detalle sea perfecto 
+                    para tu celebración.<br/><br/>
+                    Ya sea un cumpleaños, una reunión familiar o cualquier 
+                    evento especial, en Helados Adela te brindamos un lugar 
+                    donde la alegría y la deliciosa diversión se fusionan 
+                    para crear recuerdos inolvidables.<br/><br/>
+                    ¡Ven y celebra con nosotros, haciendo de tu evento un festín de sabor y felicidad!
+                  </h2>
+                  
+                </div>
+                <br /><br /> <br />
+   
+
+
+              </Col>
+
+
+            </Row>
+
+          </Container>
+          
+
+        </div>
+        <div
+
+        style={{
+          background: "#BA8FAF"
+        }}
+      >
+       
+        <Container
+        >
+          <Row
+            style={{
+              background: "#BA8FAF"
+            }}>
+            <Col md="12">
+              <h2
+                style={{
+                  color: "White",
+                  fontFamily: "Finland",
+                  fontSize: "500%",
+                  textAlign: "Center"
+                }}>RESERVA TU ESPACIO: +502 5534 1529</h2>
+                <br/>
+            </Col>
+
+
+
+          </Row>
+
+        </Container>
+        </div>
+      </div>
     </>
   );
 }

@@ -31,6 +31,7 @@ import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import Tiendas from "views/Tiendas.js";
+import Servicios from "views/Servicios";
 // others
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -44,6 +45,7 @@ root.render(
       <Route path="/profile-page" element={<ProfilePage />} />
       <Route path="/register-page" element={<RegisterPage />} />
       <Route path="/tiendas" element={<Tiendas />} />
+      <Route path="/servicios" element={<Servicios />}/>
       <Route path="*" element={<Navigate to="/index" replace />} />
     </Routes>
   </BrowserRouter>

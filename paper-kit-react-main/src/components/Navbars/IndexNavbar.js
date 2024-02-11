@@ -117,7 +117,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="/"
+                href="/servicios"
                 target="_blank"
                 title="Nuestros Servicios"
               >
