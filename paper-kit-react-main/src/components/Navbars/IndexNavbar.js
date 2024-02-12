@@ -145,21 +145,7 @@ function IndexNavbar() {
               </NavLink>
             </NavItem>
             
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="/"
-                target="_blank"
-                title="Buscar"
-              >
-
-                <p><img src={require("assets/img/Lupa.png")}
-                style={{
-                  width:"35px"
-                }}></img></p>
-              </NavLink>
-            </NavItem>
-           
+            
            
 
           </Nav>
