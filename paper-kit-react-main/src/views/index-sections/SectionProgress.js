@@ -78,10 +78,12 @@ function SectionProgress() {
           display:"flex",
           justifyContent:"Center",
           backgroundColor:"#FFD8EC"
-         }}><Button
+         }}>
+          <Button
           className="btn-round mr-1"
           type="button"
           color="info"
+          href="/tiendas"
           
     
         >

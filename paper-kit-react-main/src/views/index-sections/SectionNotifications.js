@@ -49,6 +49,7 @@ const Forms = () => {
       <Row>
 
           <Col md="5">
+            <Col>
             <div>
               <p
                 style={{
@@ -130,7 +131,7 @@ const Forms = () => {
             </form>
             <br />
 
-
+            </Col>
           </Col>
           
      
