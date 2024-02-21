@@ -44,57 +44,9 @@ function SectionButtons() {
           width: "103%"
         }}>
       </img>
-      <Container>
-        <div className="title"
-        style={{
-          justifyContent:"Center",
-          display:"flex",
-          textAlign:"justify"
-        }}>
-          <h4
-            style={{
-              color: "#6b184d",
-              fontFamily: "Fenwick",
-             
 
-            }}>
-            Helados completamente desde cero, utilizando una receta única y
-            perfeccionada durante más de 10 años. Nuestros helados tienen una
-            textura excepcionalmente suave, con un sabor vibrante y cremoso.
-            Encontrarás sabores inspirados en nuestras curiosidades!!
-          </h4>
-        </div>
-      </Container>
       
-      <Container>
-      
-   
-     <div
-     style={{
-      display:"flex",
-      justifyContent:"Center"
-     }}>
-        <Button
-          className="btn-round mr-1"
-          type="button"
-          color="success"
-          width="33.33%"
-    
-        >
-          <p
-          style={{
-            fontFamily:"Apparat-Bold",
-            fontSize:"22px",
-            color:"#6b184d"
-            
-          }}
-          >Conoce Nuestros Sabores
-          </p>
-        </Button>
-        </div>
 
-  
-      </Container>
   
     
     </>

@@ -248,13 +248,14 @@ function SectionJavaScript() {
               background: "#BA8FAF"
             }}>
             <Col md="12">
+            <a href="https://wa.me/50255341529?text=Hola!,%20quisiera%20reservar%20un%20espacio%20para%20evento.">
               <h2
                 style={{
                   color: "White",
                   fontFamily: "Finland",
                   fontSize: "500%",
                   textAlign: "Center"
-                }}>RESERVA TU ESPACIO: +502 5534 1529</h2>
+                }}>RESERVA TU ESPACIO: +502 5534 1529</h2></a>
                 <br/>
             </Col>
 

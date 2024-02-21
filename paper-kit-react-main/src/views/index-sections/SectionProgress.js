@@ -67,6 +67,16 @@ function SectionProgress() {
           }}>
             NECESITO UN ADELA AHORA..!!!
           </h1>
+          <p
+          style={{
+            color: "#EE83A1",
+            fontStyle:"bold",
+            fontFamily: "Finland Bold",
+            textAlign:"Center",
+            fontSize:"150%"
+          }}>
+            Válido en Ciudad de Guatemala.
+          </p>
         </Col>
         <Col md="2"
         style={{
@@ -114,6 +124,7 @@ function SectionProgress() {
           className="btn-round mr-1"
           type="button"
           color="info"
+          href="https://bit.ly/m/Helados-Adela"
          
         >
           <p

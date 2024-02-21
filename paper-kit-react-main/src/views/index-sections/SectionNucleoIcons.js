@@ -19,7 +19,14 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { 
+
+  Row, 
+  Col,
+  Button,
+  FormGroup,
+  Label,
+  Input,} from "reactstrap";
 
 // core components
 
@@ -46,13 +53,112 @@ function SectionNucleoIcons() {
             width: "100%"
           }}>
         </img>
+        <br /><br /><br /><br />
+        <Col md="12">
+            <Col
+            style={{
+              backgroundColor:"white"
+            }}>
+            <div 
+            >
+              
+              <p
+                style={{
+                  color: "#6b184d",
+                  fontFamily: "Finland Bold",
+                  fontSize: "350%",
+                  lineHeight: "normal"
+                }}
+              >
+               ¡SÉ PARTE DE NUESTRO EQUIPO!, ENVÍANOS TU CONTACTO
+              </p>
+            </div>
+   
+            <form>
+              <FormGroup>
+                <Label for="exampleName"
+                  style={{
+                    color: "#6b184d",
+                    fontFamily: "Fenwick",
+                    fontSize: "175%",
+                    textAlign: "justify"
+                  }}>Nombre Completo</Label>
+                 
+                <Input
+                  type="name"
+                  name="email"
+                  id="exampleEmail"
+                  placeholder="Ingresa tu nombre aquí"
+                />
 
+              </FormGroup>
+              <FormGroup>
+                <Label for="exampleEmail"
+                  style={{
+                    color: "#6b184d",
+                    fontFamily: "Fenwick",
+                    fontSize: "175%",
+                    textAlign: "justify"
+                  }}>Correo Electrónico</Label>
+                <Input
+                  type="email"
+                  name="email"
+                  id="exampleEmail"
+                  placeholder="Ingresa tu Email aquí"
+                />
 
+              </FormGroup>
+              <FormGroup>
+                <Label for="examplePhone"
+                  style={{
+                    color: "#6b184d",
+                    fontFamily: "Fenwick",
+                    fontSize: "175%",
+                    textAlign: "justify"
+                  }}>Teléfono</Label>
+                <Input
+                  type="phone"
+                  name="phone"
+                  id="examplePhone"
+                  placeholder="Ingresa tu número aquí"
 
+                />
+              </FormGroup>
+              <FormGroup>
+                <Label for="examplePhone"
+                  style={{
+                    color: "#6b184d",
+                    fontFamily: "Fenwick",
+                    fontSize: "175%",
+                    textAlign: "justify"
+                  }}>¿Cómo te enteraste de Helados Adela?</Label>
+                <Input
+                  type="paragraph"
+                  name="paragraph"
+                  id="exampleParagraph"
+                  placeholder=""
+                />
+              </FormGroup>
+              <br /> <br />
+              <Button
+                className="btn-round mr-1"
+                type="button"
+                color="info"
+                width="33.33%"
+              >
+                <p
+                  style={{
+                    fontFamily: "Fenwick Bold",
+                    fontSize: "20px",
+                    color: "white",
+                  }}
+                >Enviar</p>
+              </Button>
+            </form>
+            <br />
 
-
-
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </Col>
+          </Col>
       </div>
     </>
   );
