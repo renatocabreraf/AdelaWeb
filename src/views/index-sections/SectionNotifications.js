@@ -17,7 +17,8 @@
 
 */
 import React from "react";
-
+import { useState } from "react";
+import axios from "axios";
 // reactstrap components
 import {
   NavItem,
@@ -42,7 +43,27 @@ import {
 // core components
 
 
-const Forms = () => {
+
+
+function Forms  () {
+  const sendContact = (nombre,email,telefono) =>{
+    axios.post("https://8rirjk6k6j.execute-api.us-east-2.amazonaws.com/version1",
+    {
+      "nombre_completo": nombre,
+      "correo_electronico": email,
+      "telefono": telefono
+    },
+    {
+      "Access-Control-Allow-Origin": "*",
+    }
+    )
+    }
+  const[nombre,setnombre]=useState("")
+  const handlesetname = (value) => setnombre (value)
+  const[email,setemail]=useState("")
+  const handlesetemail = (value) => setemail (value)
+  const[telefono,settelefono]=useState("")
+  const handlesettelefono = (value) => settelefono (value)
   return (
     <>
     <br/><br/>   
@@ -63,7 +84,7 @@ const Forms = () => {
               </p>
             </div>
             <br /> <br /> <br/>    <br/>
-            <form>
+       
               <FormGroup>
                 <Label for="exampleName"
                   style={{
@@ -78,6 +99,7 @@ const Forms = () => {
                   name="email"
                   id="exampleEmail"
                   placeholder="Ingresa tu nombre aquí"
+                  onChange={handlesetname}
                 />
 
               </FormGroup>
@@ -94,6 +116,7 @@ const Forms = () => {
                   name="email"
                   id="exampleEmail"
                   placeholder="Ingresa tu Email aquí"
+                  onChange={handlesetemail}
                 />
 
               </FormGroup>
@@ -110,6 +133,7 @@ const Forms = () => {
                   name="phone"
                   id="examplePhone"
                   placeholder="Ingresa tu número aquí"
+                  onChange={handlesettelefono}
 
                 />
               </FormGroup>
@@ -119,6 +143,7 @@ const Forms = () => {
                 type="button"
                 color="info"
                 width="33.33%"
+                onClick={sendContact(nombre,email,telefono)}
               >
                 <p
                   style={{
@@ -128,7 +153,7 @@ const Forms = () => {
                   }}
                 >Enviar</p>
               </Button>
-            </form>
+       
             <br />
 
             </Col>

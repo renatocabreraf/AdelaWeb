@@ -17,6 +17,8 @@
 
 */
 import React from "react";
+import { useState } from "react";
+import axios from "axios";
 
 // reactstrap components
 import { 
@@ -28,9 +30,9 @@ import {
   Label,
   Input,} from "reactstrap";
 
-// core components
 
 function SectionNucleoIcons() {
+
   return (
     <>
       <br />    <br />    <br /><br />
@@ -39,9 +41,6 @@ function SectionNucleoIcons() {
 
       >
         <br /><br /><br /><br /><br /><br /><br />
-
-
-
         <a href="https://wa.me/50255341529?text=Hola!,%20quisiera%20reservar%20un%20espacio%20para%20evento.">
           <img src={require("assets/img/CONTACTOGT.png")}
           style={{
