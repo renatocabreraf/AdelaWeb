@@ -105,7 +105,7 @@ function SectionJavaScript() {
                   }}>En nuestra mágica fábrica de helados,
                   los niños viven una experiencia inolvidable.
                   Desde aprender a hacer su propio helado hasta
-                  la adición de irresistibles toppings, cada
+                  la incorporación de irresistibles toppings, cada
                   estación ofrece una aventura para despertar
                   la creatividad y los sentidos. Las risas
                   llenan el aire mientras los pequeños crean
