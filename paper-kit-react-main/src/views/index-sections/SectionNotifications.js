@@ -134,7 +134,7 @@ const Forms = () => {
             </Col>
           </Col>
           
-     
+
         <Col md="6">
         <div>
               <p
@@ -142,7 +142,8 @@ const Forms = () => {
                   color: "#6b184d",
                   fontFamily: "Finland Bold",
                   fontSize: "350%",
-                  lineHeight: "normal"
+                  lineHeight: "normal",
+                  textAlign:"center"
                 }}
               >
                 COMUNIDAD ADELA
@@ -154,7 +155,8 @@ const Forms = () => {
                   color: "#EE83A1",
                   fontFamily: "Fenwick Bold",
                   fontSize: "175%",
-                  lineHeight: "normal"
+                  lineHeight: "normal",
+                  textAlign:"center"
                 }}
               >
                 @heladosadela

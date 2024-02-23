@@ -97,7 +97,7 @@ function IndexHeader() {
             efecto más aglutinante. Media onza de ganas de pasarla bien. En caso 
             de no tener ni idea de cómo conseguir esto, puedes acercarte a 
             cualquiera de nuestros amigos de Adela y te diremos el secreto para 
-            lograr la consistencia perfecta.
+            lograr la consistencia perfecta.<br/><br/>
             </h4>
 
           </Col>

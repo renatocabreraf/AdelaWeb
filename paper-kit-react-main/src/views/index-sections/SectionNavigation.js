@@ -84,7 +84,7 @@ function SectionNavigation() {
             color:"White",
             fontFamily:"Fenwick",
             fontSize:"200%",
-            textAlign:"justify"
+            textAlign:"left"
           }}>
             Nuestra fundadora apasionada y amante del helado. Su dedicación 
             y entusiasmo por este delicioso manjar se reflejan en cada rincón
@@ -115,7 +115,9 @@ function SectionNavigation() {
             }}
             >
               </img>
+              
               </Col>
+             <br/><br/>
           </Col>
           </Col>
           </Col>

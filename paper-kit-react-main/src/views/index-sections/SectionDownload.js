@@ -44,7 +44,7 @@ function SectionDownload() {
                 style={{
                   color: "White",
                   fontFamily: "Finland Bold",
-                  fontSize: "500%",
+                  fontSize: "350%",
                   textAlign: "right"
                 }}>UBICACIONES EN MÉXICO</h2>
             </Col>

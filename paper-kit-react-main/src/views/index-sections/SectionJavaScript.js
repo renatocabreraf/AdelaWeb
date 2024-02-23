@@ -61,6 +61,7 @@ function SectionJavaScript() {
               background: "#BA8FAF"
             }}>
             <Col md="12">
+              <br/>
               <h2
                 style={{
                   color: "White",
@@ -255,7 +256,7 @@ function SectionJavaScript() {
                   fontFamily: "Finland",
                   fontSize: "500%",
                   textAlign: "Center"
-                }}>RESERVA TU ESPACIO: +502 5534 1529</h2></a>
+                }}>RESERVA TU ESPACIO: 5534-1529</h2></a>
                 <br/>
             </Col>
 
