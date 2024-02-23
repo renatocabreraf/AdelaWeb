@@ -28,9 +28,10 @@ function Tienda() {
    
         <div className="main">
           <SectionCarousel />
+          <SectionExamples />
           <SectionDark />
           <SectionDownload />
-          <SectionExamples />
+          
 
          
         </div>
