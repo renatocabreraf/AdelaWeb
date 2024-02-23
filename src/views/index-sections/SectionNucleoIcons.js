@@ -42,11 +42,13 @@ function SectionNucleoIcons() {
 
 
 
-        <img src={require("assets/img/CONTACTOGT.png")}
+        <a href="https://wa.me/50255341529?text=Hola!,%20quisiera%20reservar%20un%20espacio%20para%20evento.">
+          <img src={require("assets/img/CONTACTOGT.png")}
           style={{
             width: "100%"
           }}>
         </img>
+        </a>
         <br /><br /><br /><br />
         <img src={require("assets/img/CONTACTOMX.png")}
           style={{
