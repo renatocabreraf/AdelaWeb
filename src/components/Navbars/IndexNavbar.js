@@ -53,7 +53,7 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            target="_blank"
+           
             title="¡Bienvenido a Helados Adela!"
           >
             <img src={require("assets/img/LogoAdela.png")}
@@ -83,7 +83,7 @@ function IndexNavbar() {
               <NavLink
                 data-placement="bottom"
                 href="/index"
-                target="_blank"
+            
                 title="Todo sobre Helados Adela"
                 
               >
@@ -100,7 +100,7 @@ function IndexNavbar() {
               <NavLink
                 data-placement="bottom"
                 href="/tiendas"
-                target="_blank"
+            
                 title="¡Ubica tu tienda más cercana!"
               >
                 
@@ -116,7 +116,7 @@ function IndexNavbar() {
               <NavLink
                 data-placement="bottom"
                 href="/servicios"
-                target="_blank"
+           
                 title="Nuestros Servicios"
               >
                
@@ -132,7 +132,7 @@ function IndexNavbar() {
               <NavLink
                 data-placement="bottom"
                 href="/contactenos"
-                target="_blank"
+      
                 title="Contacta con Helados Adela"
               >
 
