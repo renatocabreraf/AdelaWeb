@@ -183,7 +183,7 @@ function SectionDark() {
                 fontSize:"200%",
                 textAlign:"Center"
                 }}>
-                Plaza Majadas. 28 Av 6-60. Zona 11. Cdad. de Guatemala. Parqueo Ferco
+                28 Av 6-60. Zona 11. Cdad. de Guatemala. Parqueo Ferco
                 </p>
                 <br/>
                 <a href="https://www.google.com/maps/place/Helados+Adela/@14.6229258,-90.5644074,17z/data=!3m1!4b1!4m6!3m5!1s0x8589a140a9a53317:0xd89ef7bd8a712a94!8m2!3d14.6229206!4d-90.5618325!16s%2Fg%2F11rqrssntj?entry=ttu"><p

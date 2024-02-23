@@ -142,8 +142,8 @@ function SectionJavaScript() {
                     Nos enorgullece ofrecerte una experiencia única, 
                     donde la deliciosa frescura de nuestros helados 
                     se une a la celebración de tu ocasión especial.<br/><br/>
-                    Estamos comprometidos a atenderte de la mejor manera 
-                    posible, creando un ambiente vibrante y lleno de sabor. 
+                    Estamos comprometidos a atenderte de la mejor manera, 
+                    creando un ambiente vibrante y lleno de sabor. 
                     Ya sea una fiesta, boda, cumpleaños o cualquier evento 
                     especial, en Helados Adela estamos listos para endulzar 
                     cada momento y hacer que tu celebración sea aún más 
@@ -210,8 +210,7 @@ function SectionJavaScript() {
                     ambiente encantador y festivo, perfecto para cualquier 
                     ocasión especial. Imagina un lugar lleno de colores 
                     y aromas tentadores, donde tanto niños como adultos 
-                    pueden sumergirse en la experiencia única de crear sus 
-                    propios helados personalizados. Con un servicio dedicado 
+                    pueden sumergirse en una experiencia única. Con un servicio dedicado 
                     y atento, nos aseguramos de que cada detalle sea perfecto 
                     para tu celebración.<br/><br/>
                     Ya sea un cumpleaños, una reunión familiar o cualquier 
