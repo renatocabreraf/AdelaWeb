@@ -100,8 +100,28 @@ function Forms() {
                 >Envíanos tu información por WhatsApp</p>
               </Button>
               </a>
+              <br/><br/>
+        
+              <Col md="12">
+           <center><img src={require("assets/img/LOGO 1 ADELA.png")}
+          style={{
+            width:"30vh",
+            textAlign:"center"
+            
+          }}></img></center> 
+          </Col>
+          <Col md="12">
+            <br/>
+            <p
+            style={{
+              textAlign:"left",
+              fontFamily:"Fenwick",
+              color:"black",
+              fontSize:"14px"
               
-            <br />
+            }}>©2024 Helados Adela, Quorra S.A. Todos los derechos reservados.</p>
+          
+          </Col>
 
             </Col>
           </Col>
