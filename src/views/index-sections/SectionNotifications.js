@@ -19,7 +19,7 @@
 */
 import React from "react";
 import { useState } from "react";
-import axios from "axios";
+
 // reactstrap components
 import {
   NavItem,
@@ -43,23 +43,10 @@ import {
 
 // core components
 
-const sendContact = (nombre,email,telefono) => {
-  axios.post("https://8rirjk6k6j.execute-api.us-east-2.amazonaws.com/version1",
-    {
-      "nombre_completo": nombre,
-      "correo_electronico": email,
-      "telefono": telefono
-    }
-  )
-}
+
 
 function Forms() {
-  const[nombre,setnombre]=useState("")
-  const handlesetname = (value) => setnombre (value)
-  const[email,setemail]=useState("")
-  const handlesetemail = (value) => setemail (value)
-  const[telefono,settelefono]=useState("")
-  const handlesettelefono = (value) => settelefono (value)
+
   return (
     <>
     <br/><br/>   
