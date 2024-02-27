@@ -97,7 +97,7 @@ function SectionNavigation() {
             color:"White",
             fontFamily:"Fenwick",
             fontSize:"200%",
-            textAlign:"justify"
+            textAlign:"left"
           }}>
             ¡Descubre el mundo del helado a través de los ojos y el paladar 
             apasionado de Marce!

@@ -55,11 +55,12 @@ function SectionNucleoIcons() {
             width: "100%"
           }}>
         </img>
-        <br /><br /><br /><br />
+        <br /><br />
         <Col md="12">
             <Col
             style={{
-              backgroundColor:"white"
+              backgroundColor:"white",
+              textAlign:"center"
             }}>
             <div 
             >
@@ -75,74 +76,8 @@ function SectionNucleoIcons() {
                ¡SÉ PARTE DE NUESTRO EQUIPO!, ENVÍANOS TU CONTACTO
               </p>
             </div>
-   
             <form>
-              <FormGroup>
-                <Label for="exampleName"
-                  style={{
-                    color: "#6b184d",
-                    fontFamily: "Fenwick",
-                    fontSize: "175%",
-                    textAlign: "justify"
-                  }}>Nombre Completo</Label>
-                 
-                <Input
-                  type="name"
-                  name="email"
-                  id="exampleEmail"
-                  placeholder="Ingresa tu nombre aquí"
-                />
-
-              </FormGroup>
-              <FormGroup>
-                <Label for="exampleEmail"
-                  style={{
-                    color: "#6b184d",
-                    fontFamily: "Fenwick",
-                    fontSize: "175%",
-                    textAlign: "justify"
-                  }}>Correo Electrónico</Label>
-                <Input
-                  type="email"
-                  name="email"
-                  id="exampleEmail"
-                  placeholder="Ingresa tu Email aquí"
-                />
-
-              </FormGroup>
-              <FormGroup>
-                <Label for="examplePhone"
-                  style={{
-                    color: "#6b184d",
-                    fontFamily: "Fenwick",
-                    fontSize: "175%",
-                    textAlign: "justify"
-                  }}>Teléfono</Label>
-                <Input
-                  type="phone"
-                  name="phone"
-                  id="examplePhone"
-                  placeholder="Ingresa tu número aquí"
-
-                />
-              </FormGroup>
-              <FormGroup>
-                <Label for="examplePhone"
-                  style={{
-                    color: "#6b184d",
-                    fontFamily: "Fenwick",
-                    fontSize: "175%",
-                    textAlign: "justify"
-                  }}>¿Cómo te enteraste de Helados Adela?</Label>
-                <Input
-                  type="paragraph"
-                  name="paragraph"
-                  id="exampleParagraph"
-                  placeholder=""
-                />
-              </FormGroup>
-              <br /> <br />
-              <Button
+            <a href="https://wa.me/50255341529?text=Envíanos%20tu%20CV,%20será%20un%20placer%20ponernos%20en%20contacto."><Button
                 className="btn-round mr-1"
                 type="button"
                 color="info"
@@ -151,15 +86,18 @@ function SectionNucleoIcons() {
                 <p
                   style={{
                     fontFamily: "Fenwick Bold",
-                    fontSize: "20px",
+                    fontSize: "19px",
                     color: "white",
                   }}
-                >Enviar</p>
+                >Envíanos tu información por WhatsApp</p>
               </Button>
+              
+              </a>
             </form>
-            <br />
-
+         
             </Col>
+            <br /><br />
+            <br />
           </Col>
       </div>
     </>

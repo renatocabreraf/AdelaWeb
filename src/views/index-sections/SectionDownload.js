@@ -58,7 +58,7 @@ function SectionDownload() {
                       color: "wHITE",
                       fontFamily: "Fenwick",
                       fontSize: "200%",
-                      textAlign: "justify",
+                      textAlign: "left",
                       fontStyle: "normal"
                     }}>
                     Helados Adela abre sus puertas en Mérida,

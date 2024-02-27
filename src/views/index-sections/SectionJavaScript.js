@@ -101,7 +101,7 @@ function SectionJavaScript() {
                     color: "White",
                     fontFamily: "Fenwick",
                     fontSize: "140%",
-                    textAlign: "justify"
+                    textAlign: "left"
                   }}>En nuestra mágica fábrica de helados,
                   los niños viven una experiencia inolvidable.
                   Desde aprender a hacer su propio helado hasta
@@ -134,7 +134,7 @@ function SectionJavaScript() {
                       color: "White",
                     fontFamily: "Fenwick",
                     fontSize: "140%",
-                    textAlign: "justify"
+                    textAlign: "left"
                     }}>
                     En Helados Adela, llevamos la magia directamente 
                     a tus eventos con nuestra encantadora carreta o 
@@ -201,7 +201,7 @@ function SectionJavaScript() {
                       color: "White",
                     fontFamily: "Fenwick",
                     fontSize: "160%",
-                    textAlign: "justify"
+                    textAlign: "left"
                     }}>
                     En Helados Adela, te invitamos a celebrar tus eventos 
                     en nuestras acogedoras instalaciones, donde la dulzura 

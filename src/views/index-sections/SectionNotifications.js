@@ -1,3 +1,4 @@
+
 /*!
 
 =========================================================
@@ -17,7 +18,8 @@
 
 */
 import React from "react";
-
+import { useState } from "react";
+import axios from "axios";
 // reactstrap components
 import {
   NavItem,
@@ -41,8 +43,23 @@ import {
 
 // core components
 
+const sendContact = (nombre,email,telefono) => {
+  axios.post("https://8rirjk6k6j.execute-api.us-east-2.amazonaws.com/version1",
+    {
+      "nombre_completo": nombre,
+      "correo_electronico": email,
+      "telefono": telefono
+    }
+  )
+}
 
-const Forms = () => {
+function Forms() {
+  const[nombre,setnombre]=useState("")
+  const handlesetname = (value) => setnombre (value)
+  const[email,setemail]=useState("")
+  const handlesetemail = (value) => setemail (value)
+  const[telefono,settelefono]=useState("")
+  const handlesettelefono = (value) => settelefono (value)
   return (
     <>
     <br/><br/>   
@@ -56,79 +73,34 @@ const Forms = () => {
                   color: "#6b184d",
                   fontFamily: "Finland Bold",
                   fontSize: "350%",
-                  lineHeight: "normal"
+                  lineHeight: "normal",
+                  textAlign: "CENTER"
                 }}
               >
                 QUIERO QUE ME CONTACTEN PARA REALIZAR UN EVENTO CON USTEDES
               </p>
             </div>
-            <br /> <br /> <br/>    <br/>
-            <form>
-              <FormGroup>
-                <Label for="exampleName"
-                  style={{
-                    color: "#6b184d",
-                    fontFamily: "Fenwick",
-                    fontSize: "175%",
-                    textAlign: "justify"
-                  }}>Nombre Completo</Label>
-                 
-                <Input
-                  type="name"
-                  name="email"
-                  id="exampleEmail"
-                  placeholder="Ingresa tu nombre aquí"
-                />
-
-              </FormGroup>
-              <FormGroup>
-                <Label for="exampleEmail"
-                  style={{
-                    color: "#6b184d",
-                    fontFamily: "Fenwick",
-                    fontSize: "175%",
-                    textAlign: "justify"
-                  }}>Correo Electrónico</Label>
-                <Input
-                  type="email"
-                  name="email"
-                  id="exampleEmail"
-                  placeholder="Ingresa tu Email aquí"
-                />
-
-              </FormGroup>
-              <FormGroup>
-                <Label for="examplePhone"
-                  style={{
-                    color: "#6b184d",
-                    fontFamily: "Fenwick",
-                    fontSize: "175%",
-                    textAlign: "justify"
-                  }}>Teléfono</Label>
-                <Input
-                  type="phone"
-                  name="phone"
-                  id="examplePhone"
-                  placeholder="Ingresa tu número aquí"
-
-                />
-              </FormGroup>
-              <br /> <br />
-              <Button
+            <br /> <br />
+       
+              
+              <a href="https://wa.me/50255341529?text=Hola!,%20quisiera%20compartir%20mis%20datos%20para%20realizar%20un%20evento."><Button
                 className="btn-round mr-1"
                 type="button"
                 color="info"
                 width="33.33%"
+
+               
               >
                 <p
                   style={{
                     fontFamily: "Fenwick Bold",
-                    fontSize: "20px",
+                    fontSize: "19px",
                     color: "white",
                   }}
-                >Enviar</p>
+                >Envíanos tu información por WhatsApp</p>
               </Button>
-            </form>
+              </a>
+              
             <br />
 
             </Col>
@@ -191,3 +163,4 @@ const Forms = () => {
 };
 
 export default Forms;
+

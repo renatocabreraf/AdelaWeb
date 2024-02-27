@@ -49,7 +49,7 @@ function SectionButtons() {
         style={{
           justifyContent:"Center",
           display:"flex",
-          textAlign:"justify"
+          textAlign:"left"
         }}>
           <h4
             style={{

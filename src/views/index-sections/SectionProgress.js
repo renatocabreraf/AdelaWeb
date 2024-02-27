@@ -53,7 +53,7 @@ function SectionProgress() {
         backgroundColor:"#FFD8EC"
       }}
       >
-        <Col md="6"
+        <Col md="5"
         style={{
           backgroundColor:"#FFD8EC"
         }}>
@@ -78,7 +78,7 @@ function SectionProgress() {
             Válido en Ciudad de Guatemala.
           </p>
         </Col>
-        <Col md="2"
+        <Col md="4"
         style={{
           backgroundColor:"#FFD8EC"
         }}>
@@ -100,7 +100,7 @@ function SectionProgress() {
           <p
           style={{
             fontFamily:"Fenwick Bold",
-            fontSize:"11px",
+            fontSize:"14px",
             color:"white",
 
             
@@ -110,7 +110,7 @@ function SectionProgress() {
         </Button>
         </div>
         </Col>
-        <Col md="2"
+        <Col md="1"
         style={{
           backgroundColor:"#FFD8EC"
         }}>
@@ -130,7 +130,7 @@ function SectionProgress() {
           <p
           style={{
             fontFamily:"Fenwick Bold",
-            fontSize:"11px",
+            fontSize:"14px",
             color:"white"
             
           }}

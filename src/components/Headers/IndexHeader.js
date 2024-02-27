@@ -84,7 +84,7 @@ function IndexHeader() {
             color:"White",
             fontFamily:"Fenwick",
             fontSize:"150%",
-            textAlign:"justify"
+            textAlign:"left"
           }}>
             El ingrediente más importante siempre es el amor. Y, en Adela, 
             no es la excepción. Para crear los recuerdos más bonitos, recomendamos
