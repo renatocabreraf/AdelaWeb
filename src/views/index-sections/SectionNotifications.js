@@ -90,7 +90,7 @@ function Forms() {
               <br/><br/>
         
               <Col md="12">
-           <center><img src={require("assets/img/LOGO 1 ADELA.png")}
+           <center><img src={require("assets/img/LOGO ADELA_Mesa de trabajo 1 copia 2 (1).png")}
           style={{
             width:"30vh",
             textAlign:"center"
